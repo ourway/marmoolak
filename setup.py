@@ -17,9 +17,9 @@ ext_modules = []
 
 setup(
     name='marmoolak',
-    version='0.0.6',
+    version='0.0.7',
     description='Yet another finite state machine with memory.',
-    long_description=io.open('README.rst', 'r', encoding='utf-8').read(),
+    long_description=io.open('README.md', 'r', encoding='utf-8').read(),
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Environment :: Web Environment',
