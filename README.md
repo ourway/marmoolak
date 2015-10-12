@@ -1,6 +1,9 @@
 # marmoolak
 Yet another finite state machine with memory
 
+
+![alt logo](logo.png)
+
 ### install ###
 ```
 pip install marmoolak
