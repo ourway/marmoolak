@@ -45,7 +45,7 @@ fsm.calm('bob', msg='sedatives in the honey pots')
 
 
 ### credits ###
-I used fysom and redis for achiving this functionality. So most of the credit goes for redis and fysom developers.
+I used fysom and redis for achiving this functionality. So most of the credit goes to redis and fysom developers.
 
 ### Contact me ###
 
