@@ -17,7 +17,7 @@ ext_modules = []
 
 setup(
     name='marmoolak',
-    version='0.0.7',
+    version='0.0.9',
     description='Yet another finite state machine with memory.',
     long_description=io.open('README.md', 'r', encoding='utf-8').read(),
     classifiers=[
@@ -41,7 +41,7 @@ setup(
         'Programming Language :: Python :: 3.3',
         'Programming Language :: Python :: 3.4',
     ],
-    keywords='wsgi web api framework rest http cloud',
+    keywords='fsm workflow engine disk memory easy simple iran tehran',
     author='Farsheed Ashouri',
     author_email='rodmena@me.com',
     url='https://github.com/ourway/marmoolak',
