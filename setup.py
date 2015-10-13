@@ -17,9 +17,9 @@ ext_modules = []
 
 setup(
     name='marmoolak',
-    version='0.0.9',
-    description='Yet another finite state machine with memory.',
-    long_description=io.open('README.md', 'r', encoding='utf-8').read(),
+    version='1.0.1',
+    description='Yet another finite state machine with memory and callbacks.',
+    long_description=io.open('README.rst', 'r', encoding='utf-8').read(),
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Environment :: Web Environment',
@@ -31,7 +31,7 @@ setup(
         'Operating System :: Microsoft :: Windows',
         'Operating System :: POSIX',
         'Topic :: Internet :: WWW/HTTP :: WSGI',
-        'Topic :: Software Development :: Libraries :: Application Frameworks',
+        'Topic :: Software Development :: Libraries :: Python Modules',
         'Programming Language :: Python',
         'Programming Language :: Python :: Implementation :: CPython',
         'Programming Language :: Python :: Implementation :: PyPy',
@@ -40,6 +40,7 @@ setup(
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3.3',
         'Programming Language :: Python :: 3.4',
+        'Programming Language :: Python :: 3.5',
     ],
     keywords='fsm workflow engine disk memory easy simple iran tehran',
     author='Farsheed Ashouri',
