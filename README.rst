@@ -2,8 +2,6 @@
 marmoolak
 =========
 
-Yet another finite state machine with memory
-
 .. figure:: https://raw.githubusercontent.com/ourway/marmoolak/master/logo.png
    :alt: alt logo
 
