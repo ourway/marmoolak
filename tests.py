@@ -1,6 +1,6 @@
 import unittest
 
-from auth import Authorization
+from marmoolak import Machine
 
 class TestMethods(unittest.TestCase):
     def test_add(self):
