@@ -6,6 +6,22 @@ marmoolak
    :alt: alt logo
 
 
+.. image:: https://badge.fury.io/py/marmoolak.svg
+    :target: https://badge.fury.io/py/marmoolak
+
+.. image:: https://img.shields.io/pypi/dm/marmoolak.svg
+    :target: https://pypi.python.org/pypi/marmoolak
+
+
+
+
+.. image:: https://api.travis-ci.org/ourway/marmoolak.svg
+    :target: https://travis-ci.org/ourway/marmoolak
+
+.. image:: https://codecov.io/github/ourway/marmoolak/coverage.svg?branch=master
+    :target: https://codecov.io/github/ourway/marmoolak?branch=master
+
+
 install
 -------
 
