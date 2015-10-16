@@ -48,7 +48,7 @@ Usage
 
 
 
-    fsm.panic(msg='killer bees', url="http://appidi.ir/api/getBooks.json")
+    fsm.panic(msg='killer bees', url="http://appido.ir/appido/api/getBooks.json")
     fsm.calm('bob', msg='sedatives in the honey pots')
 
 credits
