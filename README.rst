@@ -34,7 +34,10 @@ Usage
 
 ::
 
-    from marmoolak import Machine
+    import marmoolak
+    marmoolak.REDIS_HOST = '192.168.99.100'
+    marmoolak.REDIS_PORT = 6379
+    machine = marmoolak.Machine
 
     def onpanic(e):
         print 'panic! ' + e.msg
@@ -48,7 +51,7 @@ Usage
         print 'red'
 
 
-    fsm = Machine('myname', 'version1' , {'initial': 'green',
+    fsm = machine('myname', 'version1' , {'initial': 'green',
                  'events': [
                      {'name': 'warn', 'src': 'green', 'dst': 'yellow'},
                      {'name': 'panic', 'src': 'yellow', 'dst': 'red'},
@@ -66,6 +69,8 @@ Usage
 
     fsm.panic(msg='killer bees', url="http://appido.ir/appido/api/getBooks.json")
     fsm.calm('bob', msg='sedatives in the honey pots')
+
+
 
 credits
 -------
