@@ -40,15 +40,15 @@ Usage
     machine = marmoolak.Machine
 
     def onpanic(e):
-        print 'panic! ' + e.msg
+        print('panic! ' + e.msg)
     def oncalm(e):
-        print 'thanks to ' + e.msg + ' done by ' + e.args[0]
+        print('thanks to ' + e.msg + ' done by ' + e.args[0])
     def ongreen(e):
-        print 'green'
+        print('green')
     def onyellow(e):
-        print 'yellow'
+        print('yellow')
     def onred(e):
-        print 'red'
+        print('red')
 
 
     fsm = machine('myname', 'version1' , {'initial': 'green',
