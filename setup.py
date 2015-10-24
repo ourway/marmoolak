@@ -17,7 +17,7 @@ ext_modules = []
 
 setup(
     name='marmoolak',
-    version='1.0.5',
+    version='1.0.7',
     description='Yet another finite state machine with memory and callbacks.',
     long_description=io.open('README.rst', 'r', encoding='utf-8').read(),
     classifiers=[

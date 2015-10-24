@@ -25,14 +25,12 @@ class Machine(_Fysom):
 
 
         self.rhname = 'appido_core_fsm_{n}_{v}'.format(n=name, v=version)
-        history = self.r.get(self.rhname)
+        history = self.r.get(self.rhname).decode('utf-8')
         if history:
             args[0]['initial'] = history
         self.name = name
         self.version = version
         super(Machine, self).__init__(*args, **kw)
-
-
 
 
     def _after_event(self, e):
